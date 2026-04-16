@@ -13,10 +13,23 @@ A Model Context Protocol (MCP) server that provides access to Moondream AI's vis
 ## Installation
 
 ```bash
-npm install moondream-api-mcp
+npm install -g moondream-api-mcp
 ```
 
 ## Usage
+
+### With npx (no install required)
+
+```bash
+npx moondream-api-mcp --api-key YOUR_API_KEY
+```
+
+### With npx using environment variable
+
+```bash
+export MOONDREAM_API_KEY=YOUR_API_KEY
+npx moondream-api-mcp
+```
 
 ### Command Line
 
@@ -29,6 +42,13 @@ node src/index.js --api-key YOUR_API_KEY
 ```bash
 export MOONDREAM_API_KEY=YOUR_API_KEY
 node src/index.js
+```
+
+### As global CLI
+
+```bash
+npm install -g moondream-api-mcp
+moondream-api-mcp --api-key YOUR_API_KEY
 ```
 
 ## Available Tools
