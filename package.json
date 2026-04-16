@@ -1,5 +1,5 @@
 {
-  "name": "@hmdlohar/mcp-server-moondream",
+  "name": "moondream-mcp-server",
   "version": "1.0.0",
   "description": "MCP server for Moondream AI vision API with caption, query, detect, point, and segment capabilities",
   "type": "module",
