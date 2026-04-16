@@ -67,3 +67,38 @@ All tools accept:
 - Remote URLs (http/https)
 - Local file paths
 - Base64 encoded image data
+
+## Usage with Opencode
+
+Add to your `opencode.json` or `opencode.config.js`:
+
+```json
+{
+  "mcpServers": {
+    "moondream": {
+      "command": "npx",
+      "args": ["moondream-api-mcp", "--api-key", "YOUR_API_KEY"]
+    }
+  }
+}
+```
+
+Or with environment variable:
+
+```json
+{
+  "mcpServers": {
+    "moondream": {
+      "command": "moondream-api-mcp"
+    }
+  }
+}
+```
+
+Then set `MOONDREAM_API_KEY` in your environment.
+
+Once configured, you can use the tools in Opencode:
+
+- "Caption what's in this image"
+- "Detect all cars in this image"
+- "What objects are in this image?"
