@@ -1,5 +1,8 @@
 # Moondream API MCP Server
 
+[![npm version](https://img.shields.io/npm/v/moondream-api-mcp)](https://www.npmjs.com/package/moondream-api-mcp)
+[![npm downloads](https://img.shields.io/npm/dm/moondream-api-mcp)](https://www.npmjs.com/package/moondream-api-mcp)
+
 A Model Context Protocol (MCP) server that provides access to Moondream AI's vision API capabilities.
 
 ## Features
