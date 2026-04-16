@@ -1,18 +1,40 @@
 {
-  "name": "mcp-server-moondream",
+  "name": "@hmdlohar/mcp-server-moondream",
   "version": "1.0.0",
-  "description": "MCP server for Moondream AI vision API",
+  "description": "MCP server for Moondream AI vision API with caption, query, detect, point, and segment capabilities",
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "mcp-server-moondream": "./src/index.js"
+    "moondream-mcp": "./src/index.js"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "echo \"No tests yet\""
   },
-  "keywords": ["mcp", "moondream", "vision", "ai", "mcp-server"],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "moondream",
+    "vision",
+    "ai",
+    "image-processing",
+    "object-detection",
+    "image-segmentation"
+  ],
+  "author": "Hamid Lohar <hmdlohar@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmdlohar/moondream-api-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hmdlohar/moondream-api-mcp/issues"
+  },
+  "homepage": "https://github.com/hmdlohar/moondream-api-mcp#readme"
 }
