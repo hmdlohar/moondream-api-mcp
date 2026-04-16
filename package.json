@@ -1,11 +1,10 @@
 {
-  "name": "moondream-mcp-server",
-  "version": "1.0.0",
+  "name": "moondream-api-mcp",
   "description": "MCP server for Moondream AI vision API with caption, query, detect, point, and segment capabilities",
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "moondream-mcp": "./src/index.js"
+    "moondream-api-mcp": "./src/index.js"
   },
   "scripts": {
     "start": "node src/index.js",

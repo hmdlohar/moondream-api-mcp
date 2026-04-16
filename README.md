@@ -13,7 +13,7 @@ A Model Context Protocol (MCP) server that provides access to Moondream AI's vis
 ## Installation
 
 ```bash
-npm install
+npm install moondream-api-mcp
 ```
 
 ## Usage
